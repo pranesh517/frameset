@@ -1,0 +1,3 @@
+# frameset
+Initial Framework designed using Test NG and Maven as Build automation tool.
+Chrome driver is used to launched the browser and same is placed in resource folder...
