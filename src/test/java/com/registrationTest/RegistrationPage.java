@@ -11,10 +11,20 @@ public class RegistrationPage extends HomePageConst {
 		// default Constructor
 	}
 	
+	/**
+	 * This method will check if first name field is displayed.
+	 * @return
+	 * @throws IOException
+	 */
 	public boolean isFirstNameFieldDisplayed() throws IOException{
 		return isElementVisibleByID(ReadConfigFile.readConfigurationFile().getProperty("First_Name"));
 	}
 	
+	/**
+	 * This method will check if last name field is displayed.
+	 * @return
+	 * @throws IOException
+	 */
 	public boolean isLastNameFieldDisplayed() throws IOException{
 		return  isElementVisibleByID(ReadConfigFile.readConfigurationFile().getProperty("Last_Name"));
 	}

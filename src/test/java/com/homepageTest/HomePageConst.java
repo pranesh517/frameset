@@ -15,6 +15,11 @@ import frameset.ReadConfigFile;
 
 public class HomePageConst extends CommonUtilities {
 	
+	/**
+	 * This will launch the Chrome Browser and hit URL.
+	 * 
+	 * @throws IOException
+	 */
 	public void launchBrowserAndURL() throws IOException{
 		String classPth = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", classPth+"/src/test/resources/chromedriver.exe");
@@ -27,6 +32,11 @@ public class HomePageConst extends CommonUtilities {
 		driver.get(ReadConfigFile.readConfigurationFile().getProperty("URL"));
 	}
 	
+	/**
+	 * This method will click on Registration button.
+	 * @return
+	 * @throws IOException
+	 */
 	public RegistrationPage clickOnRegistrationButton() throws IOException{
 		clickOnElementUsingXpath(ReadConfigFile.readConfigurationFile().getProperty("Registration_button"));
 		return new RegistrationPage();

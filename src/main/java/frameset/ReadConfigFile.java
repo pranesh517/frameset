@@ -7,6 +7,11 @@ import java.util.Properties;
 
 public class ReadConfigFile {
 	
+	/**
+	 * This method will read value from configuration file.
+	 * @return
+	 * @throws IOException
+	 */
 	public static Properties readConfigurationFile() throws IOException{
 		String classPth = System.getProperty("user.dir");
 		File file = new File(classPth+"/src/test/resources/config.properties");
