@@ -27,6 +27,13 @@
     <artifactId>extentreports</artifactId>
     <version>2.41.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.cedarsoft.commons/io -->
+<dependency>
+    <groupId>com.cedarsoft.commons</groupId>
+    <artifactId>io</artifactId>
+    <version>8.5.1</version>
+</dependency>
+
 
 
 </dependencies>

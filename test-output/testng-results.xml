@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24295" started-at="2018-05-19T14:51:43Z" finished-at="2018-05-19T14:52:07Z">
+  <suite name="Suite" duration-ms="35884" started-at="2018-08-05T00:26:28Z" finished-at="2018-08-05T00:27:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24295" started-at="2018-05-19T14:51:43Z" finished-at="2018-05-19T14:52:07Z">
+    <test name="Test" duration-ms="35884" started-at="2018-08-05T00:26:28Z" finished-at="2018-08-05T00:27:04Z">
       <class name="com.registrationTest.RegistrationTest">
-        <test-method status="PASS" signature="startReports()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="startReports" is-config="true" duration-ms="332" started-at="2018-05-19T20:21:43Z" finished-at="2018-05-19T20:21:43Z">
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="startReports" is-config="true" duration-ms="397" started-at="2018-08-05T05:56:28Z" finished-at="2018-08-05T05:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReports -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="TC001" duration-ms="12319" started-at="2018-05-19T20:21:43Z" description="This method will verify visibility of First Name field." finished-at="2018-05-19T20:21:55Z">
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="TC001" duration-ms="20522" started-at="2018-08-05T05:56:28Z" description="This method will verify visibility of First Name field." finished-at="2018-08-05T05:56:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="captureFailure" is-config="true" duration-ms="805" started-at="2018-05-19T20:21:55Z" finished-at="2018-05-19T20:21:56Z">
+        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="captureFailure" is-config="true" duration-ms="1034" started-at="2018-08-05T05:56:49Z" finished-at="2018-08-05T05:56:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC001 status=SUCCESS method=RegistrationTest.TC001()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2] output={null}]]]>
+                <![CDATA[[TestResult name=TC001 status=SUCCESS method=RegistrationTest.TC001()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailure -->
-        <test-method status="PASS" signature="TC002()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="TC002" duration-ms="9549" started-at="2018-05-19T20:21:56Z" description="This method will verify visibility of Last Name field." finished-at="2018-05-19T20:22:06Z">
+        <test-method status="PASS" signature="TC002()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="TC002" duration-ms="12674" started-at="2018-08-05T05:56:50Z" description="This method will verify visibility of Last Name field." finished-at="2018-08-05T05:57:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="captureFailure" is-config="true" duration-ms="787" started-at="2018-05-19T20:22:06Z" finished-at="2018-05-19T20:22:07Z">
+        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="captureFailure" is-config="true" duration-ms="687" started-at="2018-08-05T05:57:02Z" finished-at="2018-08-05T05:57:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC002 status=SUCCESS method=RegistrationTest.TC002()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2] output={null}]]]>
+                <![CDATA[[TestResult name=TC002 status=SUCCESS method=RegistrationTest.TC002()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailure -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.registrationTest.RegistrationTest@523884b2]" name="endReport" is-config="true" duration-ms="486" started-at="2018-05-19T20:22:07Z" finished-at="2018-05-19T20:22:07Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="endReport" is-config="true" duration-ms="551" started-at="2018-08-05T05:57:03Z" finished-at="2018-08-05T05:57:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.registrationTest.RegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
