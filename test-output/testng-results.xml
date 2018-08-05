@@ -1,50 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35884" started-at="2018-08-05T00:26:28Z" finished-at="2018-08-05T00:27:04Z">
+  <suite name="Suite" duration-ms="81705" started-at="2018-08-05T04:24:30Z" finished-at="2018-08-05T04:25:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="35884" started-at="2018-08-05T00:26:28Z" finished-at="2018-08-05T00:27:04Z">
-      <class name="com.registrationTest.RegistrationTest">
-        <test-method status="PASS" signature="startReports()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="startReports" is-config="true" duration-ms="397" started-at="2018-08-05T05:56:28Z" finished-at="2018-08-05T05:56:28Z">
+    <test name="Test" duration-ms="81705" started-at="2018-08-05T04:24:30Z" finished-at="2018-08-05T04:25:52Z">
+      <class name="com.homepageTest.HomePageTest">
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.homepageTest.HomePageTest@4c70fda8]" name="startReports" is-config="true" duration-ms="171" started-at="2018-08-05T09:54:30Z" finished-at="2018-08-05T09:54:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReports -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="TC001" duration-ms="20522" started-at="2018-08-05T05:56:28Z" description="This method will verify visibility of First Name field." finished-at="2018-08-05T05:56:49Z">
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="startReports" is-config="true" duration-ms="0" started-at="2018-08-05T09:54:30Z" finished-at="2018-08-05T09:54:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="captureFailure" is-config="true" duration-ms="1034" started-at="2018-08-05T05:56:49Z" finished-at="2018-08-05T05:56:50Z">
+        </test-method> <!-- startReports -->
+        <test-method status="PASS" signature="TC0015()[pri:0, instance:com.homepageTest.HomePageTest@4c70fda8]" name="TC0015" duration-ms="19324" started-at="2018-08-05T09:54:30Z" description="This method will verify visibility of First Name field." finished-at="2018-08-05T09:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0015 -->
+        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.homepageTest.HomePageTest@4c70fda8]" name="captureFailure" is-config="true" duration-ms="706" started-at="2018-08-05T09:54:49Z" finished-at="2018-08-05T09:54:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC001 status=SUCCESS method=RegistrationTest.TC001()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad] output={null}]]]>
+                <![CDATA[[TestResult name=TC0015 status=SUCCESS method=HomePageTest.TC0015()[pri:0, instance:com.homepageTest.HomePageTest@4c70fda8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailure -->
-        <test-method status="PASS" signature="TC002()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="TC002" duration-ms="12674" started-at="2018-08-05T05:56:50Z" description="This method will verify visibility of Last Name field." finished-at="2018-08-05T05:57:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="captureFailure" is-config="true" duration-ms="687" started-at="2018-08-05T05:57:02Z" finished-at="2018-08-05T05:57:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC002 status=SUCCESS method=RegistrationTest.TC002()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureFailure -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.registrationTest.RegistrationTest@26be92ad]" name="endReport" is-config="true" duration-ms="551" started-at="2018-08-05T05:57:03Z" finished-at="2018-08-05T05:57:04Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.homepageTest.HomePageTest@4c70fda8]" name="endReport" is-config="true" duration-ms="327" started-at="2018-08-05T09:55:51Z" finished-at="2018-08-05T09:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="endReport" is-config="true" duration-ms="94" started-at="2018-08-05T09:55:51Z" finished-at="2018-08-05T09:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.homepageTest.HomePageTest -->
+      <class name="com.registrationTest.RegistrationTest">
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="TC001" duration-ms="30400" started-at="2018-08-05T09:54:50Z" description="This method will verify visibility of First Name field." finished-at="2018-08-05T09:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="captureFailure" is-config="true" duration-ms="706" started-at="2018-08-05T09:55:20Z" finished-at="2018-08-05T09:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001 status=SUCCESS method=RegistrationTest.TC001()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method status="PASS" signature="TC002()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="TC002" duration-ms="29276" started-at="2018-08-05T09:55:21Z" description="This method will verify visibility of Last Name field." finished-at="2018-08-05T09:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method status="PASS" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19]" name="captureFailure" is-config="true" duration-ms="680" started-at="2018-08-05T09:55:50Z" finished-at="2018-08-05T09:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002 status=SUCCESS method=RegistrationTest.TC002()[pri:0, instance:com.registrationTest.RegistrationTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
       </class> <!-- com.registrationTest.RegistrationTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

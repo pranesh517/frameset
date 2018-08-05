@@ -33,6 +33,15 @@ public class HomePageConst extends CommonUtilities {
 	}
 	
 	/**
+	 * This method will verify if Registration button is displayed.
+	 * @return true if displayed.
+	 * @throws IOException
+	 */
+	public boolean isRegistrationButtonDisplayed() throws IOException {
+		return isElmentDisplayedByXpath(ReadConfigFile.readConfigurationFile().getProperty("Registration_button"));
+	}
+	
+	/**
 	 * This method will click on Registration button.
 	 * @return
 	 * @throws IOException
